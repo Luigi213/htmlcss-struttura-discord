@@ -30,7 +30,7 @@
         list-style-type: none;
     }
     
-    .link nav  li{
+    .link nav ul li{
         padding-right: 10px;
     }
 
@@ -123,9 +123,12 @@
 
 /* start footer */
 
+    footer{
+        background-color: #23272A;
+    }
+
     .container-footer{
         height: 470px;
-        background-color: #23272A;
         padding-top: 10px;
     }
 
@@ -137,11 +140,28 @@
     
     .col-footer{
         height: 100%;
+        width: 100%;
     }
 
     .col-info{
         height: 100%;
+        width: 100%;
         background-color: #F08080;
+        display: flex;
     }
+
+    .info{
+        height: 100%;
+        width: 30%;
+        background-color: #1E90FF;
+    }
+
+    .unlist{
+        height: 100%;
+        width:calc((100% / 4) - 30%);
+        background-color: #EE82EE;
+    }
+
+
 
 /* end footer */
