@@ -3,3 +3,145 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+/* start header */
+
+    header{
+        background-color: #ADD8E6;
+        height: 460px;
+    }
+
+    .container-header{
+        padding: 10px 0;
+        background-color: #ADD8E6;
+    }
+
+    .row-header{
+        max-width: 70%;
+        margin: 0 auto;
+        display: flex;
+        background-color: #DAA520;
+        justify-content: space-between;
+        padding: 10px;
+    }
+    
+    ul{
+        display: flex;
+        list-style-type: none;
+    }
+    
+    .link nav  li{
+        padding-right: 10px;
+    }
+
+    a{
+        text-decoration: none;
+    }
+    .col-header-login{
+        justify-content: flex-end;
+    }
+
+    .container-header-background{
+        background-color: #00008B;
+        height: 400px;
+        padding-top: 24px;
+    }
+    
+    .row-header-background{
+        max-width: 60%;
+        height: 350px;
+        margin: 0 auto;
+        background-color: #EE82EE;
+
+    }
+
+/* end header */
+
+/* star main */
+
+    .container-main{
+        height: 470px;
+        background-color: #FFFFFF;
+        padding-top: 35px;
+    }
+
+    .row-main{
+        max-width: 70%;
+        margin: 0 auto;
+        height: 400px;  
+    }
+
+    .col-main{
+        width: 100%;
+        height: 100%;
+        display: flex;
+    }
+
+    .col-image{
+        background-color: #1E90FF;
+        height: 100%;
+        width: 60%;
+    }
+
+    .col-text{
+        height: 100%;
+        width: 40%;
+        background-color: #FFC0CB;
+    }
+
+    .background-color{
+        background-color: #D3D3D3;
+    }
+
+    .row-reverse{
+        flex-direction: row-reverse;
+    }
+
+    .big{
+        height: calc(470px * 2);
+        background-color: #D3D3D3;
+    }
+
+    .row-main-big{
+        max-width: 70%;
+        margin: 0 auto;
+        height: 870px;
+    }
+
+    .col-main-big{
+        width: 100%;
+        height: 100%;
+    }
+
+    .col-main-text{
+        width: 100%;
+        height: 100%;
+        background-color: #228B22;
+    }
+
+/* end main */
+
+/* start footer */
+
+    .container-footer{
+        height: 470px;
+        background-color: #23272A;
+        padding-top: 10px;
+    }
+
+    .row-footer{
+        max-width: 70%;
+        margin: 0 auto;
+        height: 95%;
+    }
+    
+    .col-footer{
+        height: 100%;
+    }
+
+    .col-info{
+        height: 100%;
+        background-color: #F08080;
+    }
+
+/* end footer */
